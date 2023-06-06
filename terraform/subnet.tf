@@ -22,6 +22,7 @@ resource "aws_subnet" "d-sn-pri1-abc-020-c" {
     }
 }
 
+
 # Subnet pri2
 resource "aws_subnet" "d-sn-pri2-abc-030-a" {
     vpc_id            = data.aws_vpc.d-vpc-abc-001.id
